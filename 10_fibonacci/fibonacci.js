@@ -4,8 +4,7 @@ const fibonacci = function (pos) {
 
     if (pos > 0){
         for (let i = 0 ; i < pos ; i++){
-            num = seq[seq.length - 1] + seq[seq.length - 2];
-            seq.push(num);
+            seq.push(seq[seq.length - 1] + seq[seq.length - 2]);
         }
     } else if (pos < 0){
         return 'OOPS';
