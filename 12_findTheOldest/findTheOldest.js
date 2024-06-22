@@ -15,7 +15,6 @@ const findTheOldest = function (peopleArray) {
             return 1;
         }
     });
-
     return sorted[0];
 };
 
